@@ -1,0 +1,10 @@
+列名,字段类型,描述,是否分区列
+global_pid,string,global pid,
+sub_type,string,实体类型:site(全场)、store(店铺)、floor(楼层),
+sub_id,string,如果sub_type=’store‘，这里代表store_id，如果sub_type=’type‘，这里代表业态的名称,
+preference,string,偏好,
+visit_nums,int,到访次数,
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

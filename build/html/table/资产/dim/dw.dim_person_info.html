@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>dw.dim_person_info &mdash; Aibee数据平台-数仓手册 2021.08.25 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" />
+    <link href="../../../_static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> Aibee数据平台-数仓手册
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2021.08.25
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../Mall-%E5%AE%A2%E6%B5%81.html">Mall-客流主题</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Mall-%E5%81%9C%E8%BD%A6%E5%9C%BA.html">Mall-停车场主题</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../%E5%B7%A5%E5%8D%95.html">工单主题</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Aibee数据平台-数仓手册</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>dw.dim_person_info</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/table/资产/dim/dw.dim_person_info.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dw-dim-person-info">
+<h1>dw.dim_person_info<a class="headerlink" href="#dw-dim-person-info" title="永久链接至标题">¶</a></h1>
+<table class="colwidths-auto docutils align-default" id="id1">
+<caption><span class="caption-text">dw.dim_person_info 字段一览</span><a class="headerlink" href="#id1" title="永久链接至表格">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>列名</p></th>
+<th class="head"><p>字段类型</p></th>
+<th class="head"><p>备注</p></th>
+<th class="head"><p>描述</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>pid</p></td>
+<td><p>string</p></td>
+<td></td>
+<td><p>local pid</p></td>
+</tr>
+<tr class="row-odd"><td><p>gender</p></td>
+<td><p>string</p></td>
+<td></td>
+<td><p>性别(male female)</p></td>
+</tr>
+<tr class="row-even"><td><p>age</p></td>
+<td><p>smallint</p></td>
+<td></td>
+<td><p>年龄</p></td>
+</tr>
+<tr class="row-odd"><td><p>brand</p></td>
+<td><p>string</p></td>
+<td></td>
+<td><p>甲方品牌名称</p></td>
+</tr>
+<tr class="row-even"><td><p>city</p></td>
+<td><p>string</p></td>
+<td></td>
+<td><p>甲方所在城市</p></td>
+</tr>
+<tr class="row-odd"><td><p>site</p></td>
+<td><p>string</p></td>
+<td></td>
+<td><p>甲方唯一标识店铺</p></td>
+</tr>
+<tr class="row-even"><td><p>dt</p></td>
+<td><p>string</p></td>
+<td></td>
+<td><p>标签生成时间</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021, Aibee Data-Platform Team.
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+列名,字段类型,备注,描述
+sub_type,string,,实体类型
+sub_id,string,,统计标识
+group_relation,string,,群组关系
+statistic_value,int,,统计值
+brand,string,分区列,甲方ID
+city,string,分区列,甲方所在城市
+site,string,分区列,甲方所在站点
+dt,string,分区列,统计日期

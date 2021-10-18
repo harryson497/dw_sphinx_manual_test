@@ -1,0 +1,8 @@
+表名, 用途描述
+dw_staging.dwd_person_event_detail_rawlog_v1, "客流系统，客流事件明细"
+dw_staging.dwd_person_event_v1, "场门、楼层、店铺事件"
+dw_staging.dwd_trajectory_v1, "pid在摄像头下的轨迹事件"
+dw.dwd_parkinglot_violations, "停车场系统，车辆违章事件"
+dw.dwd_parkinglot_spot_occupy, "停车场系统，停车位占用时长"
+dw.dwd_parkinglot_lane_pv, "停车场系统，车道车辆通过次数"
+dw.dwd_parkinglot_event, "停车场系统，进出场事件"

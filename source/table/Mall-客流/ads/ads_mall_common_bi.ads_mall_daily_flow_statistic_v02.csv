@@ -1,0 +1,10 @@
+列名,字段类型,描述,是否分区列
+pre_entity,string,前者，如果statistic_type=store，则为store_id，如果statistic_type=format则为业态名称,
+this_entity,string,后者，如果statistic_type=store，则为store_id，如果statistic_type=format则为业态名称,
+statistic_type,string,"person_times（人次）,person_count（人数）,valid_person_count(能匹配进出店的有效进店人数),total_stay_time(能匹配进出店的总停留时长)",
+statistic_value,bigint,total_stay_time单位是s，其他单位是个,
+sub_type,string,实体类型:site(全场)、store(店铺)、floor(楼层),
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

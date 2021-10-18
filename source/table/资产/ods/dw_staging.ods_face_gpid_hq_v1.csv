@@ -1,0 +1,18 @@
+列名,字段类型,备注,描述
+channel,string,,抓拍face的摄像头id
+face_id,string,,人脸id
+pid,string,,global pid
+pid_source,string,,gpid来源，daily/tmp
+face_quality,string,,人脸质量分
+gender,string,,性别
+age,string,,年龄
+arrive_time,string,,抓拍时间戳
+data_source,string,,
+img_url,string,,图像url
+indoor,string,,
+mask_cls,string,,
+face_or_crop_box,string,,
+brand,string,,
+city,string,,
+site,string,,
+dt,string,,

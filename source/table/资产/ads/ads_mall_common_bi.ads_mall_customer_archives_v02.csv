@@ -1,0 +1,16 @@
+列名,字段类型,备注,描述
+global_pid,string,,global pid
+gender,string,,性别: F 女 M男 N未知
+age,int,,年龄: -1未识别 >0正常
+history_visit_mall_nums,int,,在一年的时间窗口内用户逛mall的总次数
+is_vip,int,,0-非会员 1-会员
+duration_mean,string,,停留平均时长
+type_operation_preference,string,,一级业态偏好
+store_favorite_degree,string,,店铺偏好
+last_visit_mall_dt,string,,最后一次到访日期
+first_visit_mall_dt,string,,第一次到mall的日期
+history_visit_store_nums,string,,每个店铺的到访次数
+brand,string,分区列,甲方ID
+city,string,分区列,甲方所在城市
+site,string,分区列,甲方所在站点
+dt,string,分区列,统计日期

@@ -1,0 +1,9 @@
+列名,字段类型,备注,描述
+aibee_brand_id,string,,品牌ID
+aibee_brand_name_ch,string,,品牌中文名
+aibee_brand_name_en,string,,品牌英文名
+aibee_first_format_id,string,,"AIBEE内部一级业态ID(aibee_format_{业态等级}_{自增主键}),, e.g. aibee_format_01_0023"
+aibee_second_format_id,string,,AIBEE内部二级业态ID
+aibee_third_format_id,string,,AIBEE内部三级业态ID
+brand_grade,string,,店铺档次.枚举类型高、中、低
+brand_style,string,,店铺风格.枚举类型轻奢、国际一线等

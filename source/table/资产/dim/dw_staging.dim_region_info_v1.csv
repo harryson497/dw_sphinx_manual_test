@@ -1,0 +1,10 @@
+列名,字段类型,备注,描述
+region_name,string,,"区域对应的名称,e.g.商场,所有广场,大广场-南区南屏下沉广场,小广场-南区下沉广场,广场入口,(不涉及商场客流的出入口)"
+gate_id,string,,"区域对应的场门id,e.g.GF10001"
+connect_id,smallint,,"该场门对区域的关系,0代表场门的进就是区域的进,in-in;1代表场门的进代表区域的出,in-out"
+connect_type,string,,"该场门对区域的关系类型,e.g.in-in,in-out"
+brand,string,,甲方id
+city,string,,甲方所在城市
+site,string,,甲方所在站点
+region_id,string,,"区域id,e.g.RG001代表商场,RG002代表所有广场"
+channel,string,,

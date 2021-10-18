@@ -1,0 +1,17 @@
+列名,字段类型,备注,描述
+pid,string,,"global pid"
+age,smallint,,年龄
+first_visit_mall_dt,string,,首次访问 mall 日期
+gender,string,,性别
+history_visit_mall_nums,int,,历史访问次数
+history_visit_store_nums,string,,历史进店次数
+is_vip,int,,是否 vip（已废弃）
+last_visit_mall_dt,string,,末次访问 mall 日期
+mall_visit_duration_mean,bigint,,停留时长
+store_favorite_degree,string,,店铺偏好
+subtype_by_brand,string,,子业态偏好
+type_by_brand,string,,业态偏好
+brand,string,,甲方品牌名称
+city,string,,甲方所在城市
+site,string,,甲方唯一标识店铺
+dt,string,,标签生成时间

@@ -1,0 +1,12 @@
+列名,字段类型,备注,描述
+image_url,string,,车辆图片url
+car_plate,string,,车牌号
+event_time,string,,事件发生时间
+event_type,string,,"事件类型，黑名单 : black_list，白名单 : white_list，违章停车 : illegal_parking，逆行 : retrograde"
+floor_id,string,,停车场楼层
+lane_id,string,,事件发生的车道号
+video_url,string,,事件发生时前后一段时间的视频地址
+brand,string,,甲方品牌
+city,string,,甲方所在城市
+site,string,,甲方所在站点
+dt,string,,"事件日期,2021-06-22"

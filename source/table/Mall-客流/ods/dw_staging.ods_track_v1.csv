@@ -1,0 +1,18 @@
+列名,字段类型,描述,是否分区列
+area_id,string,楼层信息（4F，3F）,
+channels,string,"\""摄像头id，可能有多个摄像头（[ch11001 ch10025]）\""",
+channels_xy,string,"\""摄像头中用户所在坐标，（[5370.13 1353.14]）\""",
+mall_id,int,,
+pid,string,local pid,
+timestamp,int,,
+x,float,所在channel的x坐标,
+y,float,所在channel的y坐标,
+pid_global,string,global pid（忽略这个字段）,
+user_id,string,,
+time,string,,
+update_at,timestamp,,
+channels_box,string,"摄像头识别到的人体方框,前两个数字为方框左上角坐标,后两个值为方框的长和宽",
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

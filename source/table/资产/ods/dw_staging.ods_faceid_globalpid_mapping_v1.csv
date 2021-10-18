@@ -1,0 +1,8 @@
+列名,字段类型,备注,描述
+face_id,string,,"视频中截取的人脸id,同一个人在一天可能有多个face_id"
+pid_global,string,,global pid 全局唯一 pid
+brand,string,分区列,甲方ID
+city,string,分区列,甲方所在城市
+site,string,分区列,甲方所在站点
+dt,string,分区列,统计日期
+tag,string,分区列,"算法结果，取值 larger/smaller"

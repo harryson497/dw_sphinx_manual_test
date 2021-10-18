@@ -1,0 +1,13 @@
+列名,字段类型,描述,是否分区列
+floor_id,string,楼层,
+channel,string,"顾客所被拍到的摄像头ID, 这里取最大的body框所对应的",
+channel_xy,string,"顾客所处商场平面图坐标, 这里取最大的body框所对应的",
+pid,string,顾客id,
+ts,bigint,"timestamp, 单位是秒",
+x,float,"顾客所处商场平面图横坐标,如果该pid仅被一个摄像头拍摄到,则为channel_xy的x, 如果同时被两个摄像头拍摄到,则去channel_xy中body框最大对应的x,如果同时被两个以上所拍到,则取相邻最近的两个摄像头给出的坐标平均值,该值为算法透传",
+y,float,"顾客所处商场平面图纵坐标,逻辑同`x`字段",
+channel_box,string,"摄像头捕捉到的body框信息,有四个数,其中前两个数为body框的坐标,后两个数为body框的长和宽",
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

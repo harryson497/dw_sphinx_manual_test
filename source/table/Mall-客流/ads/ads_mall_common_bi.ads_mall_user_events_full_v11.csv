@@ -1,0 +1,21 @@
+列名,字段类型,描述,是否分区列
+pid,string,local pid,
+global_pid,string,global pid,
+gender,string,性别: F 女 M男 N未知,
+age,int,年龄: -1未识别 >0正常,
+sub_type,string,实体类型:face(单指全场人数)、site(全场)、store(店铺)、floor(楼层),
+sub_id,string,"如果sub_type=’site‘, 这里代表gate_id，如果sub_type=’store‘，这里代表store_id，如果sub_type=’floor‘，这里代表floor_id",
+site_old_new,string,mall级别新老客:O(old) N(new 新客),
+store_old_new,string,store级新老客:O(old) N(new 新客),
+store_floor,string,店铺所属楼层,
+type_operation,string,一级业态信息,
+type_operation_second,string,二级业态信息,
+duration,string,停留时长,
+event_type,string,事件类型: inout、walker、exit,
+event_time,string,事件时间: e.g.1577169639000,
+is_staff,string,"标记是否为疑似店员,0代表不是,1代表是",
+loyalty_class,string,忠诚度等级: loyalty忠诚、frequent积极、active活跃、common普通、lossing流失,
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

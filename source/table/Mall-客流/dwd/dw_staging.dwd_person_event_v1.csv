@@ -1,0 +1,22 @@
+列名,字段类型,描述,是否分区列
+pid,string,pid,
+pid_type,string,pid 类型,
+entity_id,string,实体id。实体包括store，area 和 site 等。当entity_type=store时，为store_id；当entity_type=area时，为area_id；当当entity_type=site时，为site,
+store_id,string,商店ID。若 entity_type 不为 store，则本项为空,
+valid_entity_id,boolean,实体ID是否合法,
+area_id,string,区域ID。若 entity_type 不为 store/area，则本项为空,
+event_id,smallint,0 为 STAY（逗留），1 为 PASS（路过）,
+start_timestamp_in_mills,bigint,开始时间戳，epoch毫秒表示,
+end_timestamp_in_mills,bigint,结束时间戳，epoch毫秒表示,
+start_channel,string,监控到事件开始的摄像头（当entity_type=area/site时有效）,
+end_channel,string,监控到事件结束的摄像头（当entity_type=area/site时有效）,
+start_area_id,string,监控到事件开始时的区域（当entity_type=site时有效）,
+end_area_id,string,监控到事件结束时的区域（当entity_type=site时有效）,
+is_staff,smallint,"标识是否为疑似店员,0代表不是,1代表是",
+start_gate_id,string,顾客进场的gate_id,
+end_gate_id,string,顾客出场对应的gate_id,
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列
+entity_type,string,range: store/area/site,分区列

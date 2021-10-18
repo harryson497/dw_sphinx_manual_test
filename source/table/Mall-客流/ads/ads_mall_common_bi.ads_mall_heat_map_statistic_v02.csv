@@ -1,0 +1,11 @@
+列名,字段类型,描述,是否分区列
+floor,string,楼层信息,
+age,int,年龄: -1未识别 >0正常,
+gender,string,性别: F 女 M男 N未知,
+x,bigint,x坐标,
+y,bigint,y,
+statistic_value,bigint,坐标对应的人数,
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

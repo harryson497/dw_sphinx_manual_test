@@ -1,0 +1,13 @@
+列名,字段类型,备注,描述
+sub_id,string,,"如果sub_type=’site‘, 这里代表gate_id，如果sub_type=’store‘，这里代表store_id，如果sub_type=’floor‘，这里代表floor_id"
+age,int,,年龄: -1未识别 >0正常
+gender,string,,性别: F 女 M男 N未知
+old_new,string,,新老客: O 老客 N 新客 A 全部
+action_type,string,,事件类型: INOUT、WALKER、EXIT
+statistic_value,bigint,,total_stay_time单位是s，其他单位是个
+brand,string,分区列,甲方ID
+city,string,分区列,甲方所在城市
+site,string,分区列,甲方所在站点
+dt,string,分区列,统计日期
+sub_type,string,,实体类型:site(全场)、store(店铺)、floor(楼层)
+statistic_type,string,,统计指标:"person_times,person_count,valid_person_count,total_stay_time"

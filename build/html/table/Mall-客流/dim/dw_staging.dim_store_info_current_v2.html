@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>dw_staging.dim_store_info_current_v2 &mdash; Aibee数据平台-数仓手册 2021.08.25 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" />
+    <link rel="next" title="DWD 层" href="../dwd.html" />
+    <link rel="prev" title="dw_staging.dim_store_brand_info_v1" href="dw_staging.dim_store_brand_info_v1.html" />
+    <link href="../../../_static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> Aibee数据平台-数仓手册
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2021.08.25
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../Mall-%E5%AE%A2%E6%B5%81.html">Mall-客流主题</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../ads.html">ADS 层</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../dim.html">DIM 层</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../dim.html#id1">数据表描述</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../dim.html#id2">数据表一览</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="dw.dim_person_info.html">dw.dim_person_info</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw.dim_person_info_global_mallbi.html">dw.dim_person_info_global_mallbi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw.dim_person_info_local.html">dw.dim_person_info_local</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw.dim_store_info_current.html">dw.dim_store_info_current</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_activity_area_his_v1.html">dw_staging.dim_activity_area_his_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_brand_info_v1.html">dw_staging.dim_brand_info_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_category_info_v1.html">dw_staging.dim_category_info_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_floor_mapping_v1.html">dw_staging.dim_floor_mapping_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_gate_info_v1.html">dw_staging.dim_gate_info_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_gpid_merge_info_current_v1.html">dw_staging.dim_gpid_merge_info_current_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_gpid_merge_info_his_v1.html">dw_staging.dim_gpid_merge_info_his_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_mall_info_v2.html">dw_staging.dim_mall_info_v2</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_pid_mapping_current_v1.html">dw_staging.dim_pid_mapping_current_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_pid_mapping_v1.html">dw_staging.dim_pid_mapping_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_project_info_v1.html">dw_staging.dim_project_info_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_region_info_v1.html">dw_staging.dim_region_info_v1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dw_staging.dim_store_brand_info_v1.html">dw_staging.dim_store_brand_info_v1</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">dw_staging.dim_store_info_current_v2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../dwd.html">DWD 层</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ods.html">ODS 层</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../Mall-%E5%81%9C%E8%BD%A6%E5%9C%BA.html">Mall-停车场主题</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../%E5%B7%A5%E5%8D%95.html">工单主题</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Aibee数据平台-数仓手册</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../Mall-%E5%AE%A2%E6%B5%81.html">Mall-客流主题</a> &raquo;</li>
+        
+          <li><a href="../dim.html">DIM 层</a> &raquo;</li>
+        
+      <li>dw_staging.dim_store_info_current_v2</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/table/Mall-客流/dim/dw_staging.dim_store_info_current_v2.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dw-staging-dim-store-info-current-v2">
+<h1>dw_staging.dim_store_info_current_v2<a class="headerlink" href="#dw-staging-dim-store-info-current-v2" title="永久链接至标题">¶</a></h1>
+<table class="colwidths-auto docutils align-default" id="id1">
+<caption><span class="caption-text">dw_staging.dim_store_info_current_v2 字段一览</span><a class="headerlink" href="#id1" title="永久链接至表格">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>列名</p></th>
+<th class="head"><p>字段类型</p></th>
+<th class="head"><p>描述</p></th>
+<th class="head"><p>是否分区列</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>brand</p></td>
+<td><p>string</p></td>
+<td><p>甲方名称</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>city</p></td>
+<td><p>string</p></td>
+<td><p>甲方所位于城市</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>site</p></td>
+<td><p>string</p></td>
+<td><p>甲方商场站点ID</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>brand_store_id</p></td>
+<td><p>string</p></td>
+<td><p>甲方对商铺的标识</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>store_name</p></td>
+<td><p>string</p></td>
+<td><p>商铺名称</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>berth_number</p></td>
+<td><p>string</p></td>
+<td><p>铺位号</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>aibee_store_id</p></td>
+<td><p>string</p></td>
+<td><p>AIBEE 内部对店铺的ID标识</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>aibee_store_name</p></td>
+<td><p>string</p></td>
+<td><p>AIBEE 内部店铺名称</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>type_by_brand</p></td>
+<td><p>string</p></td>
+<td><p>甲方业态一级分类</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>subtype_by_brand</p></td>
+<td><p>string</p></td>
+<td><p>甲方业态二级分类</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>thirdtype_by_brand</p></td>
+<td><p>string</p></td>
+<td><p>甲方业态三级分类</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>type_operation</p></td>
+<td><p>string</p></td>
+<td><p>AIBEE 业态一级分类</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>category</p></td>
+<td><p>string</p></td>
+<td><p>AIBEE 业态二级分类</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>sub_category</p></td>
+<td><p>string</p></td>
+<td><p>AIBEE 业态三级分类</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>area_id</p></td>
+<td><p>string</p></td>
+<td><p>店铺所在的商场区域ID</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>area</p></td>
+<td><p>string</p></td>
+<td><p>店铺面积</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>engineering_store_id</p></td>
+<td><p>string</p></td>
+<td><p>工程方对店铺唯一标识</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>consumption_grade_by_brand</p></td>
+<td><p>string</p></td>
+<td><p>甲方定义的商家档次</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>property_fee</p></td>
+<td><p>string</p></td>
+<td><p>租金/平米/天</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>life_end_date</p></td>
+<td><p>string</p></td>
+<td><p>该店铺的合同结束日期</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>life_start_date</p></td>
+<td><p>string</p></td>
+<td><p>该店铺的合同开始日期</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>status</p></td>
+<td><p>string</p></td>
+<td><p>店铺的状态信息，有效/已失效</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>update_dt</p></td>
+<td><p>string</p></td>
+<td><p>当前的店铺快照更新日期</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>floor_id</p></td>
+<td><p>string</p></td>
+<td><p>店铺楼层信息， L1、B1…</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>style_by_brand</p></td>
+<td><p>string</p></td>
+<td><p>甲方定义的风格， e.g.现代简约</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>store_brand_preference</p></td>
+<td><p>string</p></td>
+<td><p>商家品牌偏好, e.g. 高端奢侈</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>repast_preference</p></td>
+<td><p>string</p></td>
+<td><p>饮食偏好, e.g. 水果生鲜/饮品</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>brand_store_type</p></td>
+<td><p>string</p></td>
+<td><p>租户店铺类型， e.g. 标准店/Pop Up</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../dwd.html" class="btn btn-neutral float-right" title="DWD 层" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="dw_staging.dim_store_brand_info_v1.html" class="btn btn-neutral float-left" title="dw_staging.dim_store_brand_info_v1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021, Aibee Data-Platform Team.
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

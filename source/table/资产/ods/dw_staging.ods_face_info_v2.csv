@@ -1,0 +1,15 @@
+列名,字段类型,备注,描述
+face_id,string,,"视频中截取的人脸id,同一个人在一天可能有多个face_id"
+pid,string,,"local pid,当天唯一的pid"
+arrive_time,timestamp,,截取时间（2021-06-21 20:14:00）
+camera_id,string,,摄像头id e.g.ch07026
+face_quality,float,,人脸对比得分
+gender,smallint,,性别
+age,int,,年龄
+face_path,string,可能无法访问,预留的视频截取图片存放地址
+need_register,smallint,已弃用,是否需要注册(1/0)
+pid_source,string,,"pid的来源,一般有两个值,daily_pid/tmp_pid,DID建档/FID建档"
+brand,string,分区列,甲方ID
+city,string,分区列,甲方所在城市
+site,string,分区列,甲方所在站点
+dt,string,分区列,统计日期

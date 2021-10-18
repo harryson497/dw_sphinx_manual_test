@@ -1,0 +1,17 @@
+列名,字段类型,备注,描述
+area_id,string,,楼层信息（4F，3F）
+channels,string,,摄像头id，可能有多个摄像头（[ch11001 ch10025]）
+channels_xy,string,,摄像头中用户所在坐标，（[5370.13 1353.14]）
+mall_id,int,,
+pid,string,,local pid
+timestamp,int,,视频截取时间点
+x,float,,所在channel的x坐标
+y,float,,所在channel的y坐标
+pid_global,string,,global pid（忽略这个字段）
+user_id,string,,
+time,string,,
+update_at,timestamp,,
+brand,string,分区列,甲方ID
+city,string,分区列,甲方所在城市
+site,string,分区列,甲方所在站点
+dt,string,分区列,统计日期

@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    app: dw-manual
+  name: dw-manual-ingress
+  namespace: openfaas
+spec:
+  rules:
+    - host: dw-manual.aibee.cn
+      http:
+        paths:
+          - backend:
+              serviceName: dw-manual-service
+              servicePort: 80

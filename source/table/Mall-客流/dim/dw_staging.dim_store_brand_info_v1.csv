@@ -1,0 +1,13 @@
+列名,字段类型,描述,是否分区列
+brand,string,商场品牌,
+city,string,商场城市,
+site,string,商场site,
+mall_name,string,商场名称,
+brand_store_id,string,甲方定义店铺id,
+store_name,string,店铺名称,
+aibee_store_id,string,aibee内部定义店铺id,
+aibee_brand_id,string,brand info表中aibee品牌id,
+brand_store_type,string,品牌店铺类型.枚举类型主力店、网红点等,
+comment_score,string,三方信息.店铺得分,
+comment_number,int,三方信息.评论数量,
+average_cost,string,"三方信息,人均消费",

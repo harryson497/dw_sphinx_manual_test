@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dw-manual-deployment
+  namespace: openfaas
+  labels:
+    app: dw-manual
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dw-manual
+  template:
+    metadata:
+      labels:
+        app: dw-manual
+    spec:
+      containers:
+        - name: dw-manual
+          imagePullPolicy: IfNotPresent
+          image: registry.aibee.cn/data_platform/dw-manual:0.0.2
+          resources:
+            requests:
+              cpu: 100m
+              memory: 100Mi
+          ports:
+            - containerPort: 80

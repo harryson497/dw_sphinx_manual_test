@@ -1,0 +1,17 @@
+列名,字段类型,描述,是否分区列
+pid,string,local pid,
+event_type,string,"事件类型,e.g.mall_enter,floor_enter,store_pass_start,store_enter,store_exit,floor_exit,mall_exit,fetch_face",
+ts,bigint,当前事件的时间戳,
+entity_id,string,"实体id。实体包括store,face,area和site等,当entity_type=store时,为store_id;当entity_type=area时,为floor_id;当entity_type=site时,为gate_id,当entity_type=face时，为channel_id",
+store_id,string,store id,
+floor_id,string,"floor id,e.g.1F,B1F",
+channel_id,string,channel id,
+duration_in_sec,bigint,"顾客在该次事件的停留时长,单位是秒",
+event_id,smallint,"0 mall_enter,1 mall_exit,2 floor_enter,3 floor_exit,4 store_pass_start,5 store_pass_end,6 store_enter,7 store_exit,8 fetch_face",
+pair_id,bigint,,
+is_staff,smallint,"标识是否为疑似店员,0代表不是,1代表是",
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列
+entity_type,string,"entity type,e.g. store,area,site,face",分区列

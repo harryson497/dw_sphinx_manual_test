@@ -1,0 +1,20 @@
+列名,字段类型,描述,是否分区列
+pid,string,local pid,
+pid_type,string,忽略该字段,
+store_id,string,甲方给店铺的id,
+store_name,string,店铺名称,
+floor,string,,
+event_type,smallint,事件类型（1代表过店，0代表进店）,
+label_version,string,标注版本（数据回溯使用，下游请忽略该字段）,
+channel,string,摄像头id,
+event_start_time,int,事件开始时间（单位是秒，35642，可能为空）,
+event_end_time,int,事件结束时间（单位是秒，35963，可能为空）,
+event_stime,string,事件开始时间（09:54:02，可能为空）,
+event_etime,string,事件结束时间（09:59:23，可能为空）,
+update_at,timestamp,数据更新时间,
+pid_global,string,global pid 忽略该字段,
+staff,string,标识该顾客是否为店员,
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列

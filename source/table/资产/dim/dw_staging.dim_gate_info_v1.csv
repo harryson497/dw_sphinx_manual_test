@@ -1,0 +1,14 @@
+列名,字段类型,备注,描述
+gate_id,string,,gate id
+internal_gate_id,string,,内部自用gate id
+channel,string,,channel id
+channel_type,string,,channel type DID/FID
+ip,string,,channel ip
+gate_name,string,,gate name
+floor,string,,楼层id
+life_start_date,string,,该gate id生命周期开始日期
+life_end_date,string,,该gate id生命周期结束日期
+brand,string,,brand id
+city,string,,brand city
+site,string,,brand site id
+gate_type,smallint,,"场门类型,0代表出场即离场,1代表出场属于进入另一块区域"

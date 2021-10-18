@@ -1,0 +1,5 @@
+表名,表类型,用途描述
+dw.dwd_parkinglot_event,视图,
+dw.dwd_parkinglot_lane_pv,视图,
+dw.dwd_parkinglot_spot_occupy,视图,
+dw.dwd_parkinglot_violations,视图,

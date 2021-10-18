@@ -1,0 +1,8 @@
+列名,字段类型,备注,描述
+old_gpid,string,,需要被修正的global pid
+new_gpid,string,,修正为新的global pid
+update_at,string,,数据更新时间
+brand,string,,
+city,string,,
+site,string,,
+dt,string,,Each dt partition is full of data

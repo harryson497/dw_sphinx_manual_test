@@ -1,0 +1,12 @@
+列名,字段类型,描述,是否分区列
+sub_id,string,"如果sub_type=’site‘, 这里代表gate_id，如果sub_type=’store‘，这里代表store_id，如果sub_type=’floor‘，这里代表floor_id",
+action_type,string,事件类型: INOUT、WALKER、EXIT,
+time_slice_type,string,时间分片类型（60：min）,
+time_slice_seq,int,"时间分片序号（从每日00:00开始计算）,10代表10-11点",
+statistic_type,string,"person_times（人次）,person_count（人数）,valid_person_count(能匹配进出店的有效进店人数),total_stay_time(能匹配进出店的总停留时长)",
+statistic_value,bigint,total_stay_time单位是s，其他单位是个,
+brand,string,甲方ID,分区列
+city,string,甲方所在城市,分区列
+site,string,甲方所在站点,分区列
+dt,string,统计日期,分区列
+sub_type,string,:site()store()floor(),分区列

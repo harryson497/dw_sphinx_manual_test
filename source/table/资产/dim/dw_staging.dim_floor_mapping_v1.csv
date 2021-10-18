@@ -1,0 +1,10 @@
+列名,字段类型,备注,描述
+id,int,,用于内部排序的楼层id
+internal_floor_id,string,,内部的楼层id
+floor_id,string,,甲方楼层id
+brand,string,,甲方id
+city,string,,甲方所在城市
+site,string,,甲方所在站点id
+scale,string,,每个楼层每米对应的像素数
+event_floor_id,string,,上游产出的事件数据中的floor_id
+floor_name,string,,楼层名

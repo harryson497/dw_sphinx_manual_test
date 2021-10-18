@@ -1,0 +1,11 @@
+列名,字段类型,备注,描述
+pid,string,,当天唯一pid
+age,smallint,,用户年龄
+gender,string,,性别
+group_relation,string,,"同行者关系 unknown(未知)，little friend(小伙伴), family(家庭关系),child(子女关系)，parent(父母关系),couple(情侣),freind(朋友)"
+child_stage,string,,"孩子所属阶段，主要为group_relation中child孩子年龄段子集分类(Baby,Child,Xiaoxuesheng,Chuzhongsheng,Gaozhongsheng)"
+group_info,string,,当天同行者的系列id
+brand,string,,甲方品牌名称
+city,string,,甲方所在城市
+site,string,,甲方唯一标识店铺
+dt,string,,标签生成时间

@@ -1,0 +1,6 @@
+列名,字段类型,描述,是否分区列
+id,bigint,id,
+aibee_format_id,string,aibee业态分类id,
+aibee_format_name,string,aibee业态名称,
+parent_id,string,当前业态的父节点ID,
+root_path,string,当前节点到顶级root节点的路径,

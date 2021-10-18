@@ -1,0 +1,11 @@
+列名,字段类型,描述,是否分区列
+activity_area_id,string,活动区域id,
+activity_area_name,string,活动区域的名称,
+channel_id,string,摄像头id,
+floor_id,string,楼层id,
+life_start_date,string,生命周期开始日期,
+life_end_date,string,生命周期结束日期,
+brand,string,brand id,
+city,string,brand city,
+site,string,brand mall id,
+bestview_type,string,,

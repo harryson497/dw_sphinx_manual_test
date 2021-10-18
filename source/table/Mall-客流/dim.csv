@@ -1,0 +1,19 @@
+表名,表类型,用途描述
+dw.dim_person_info,视图,
+dw.dim_person_info_global_mallbi,视图,
+dw.dim_person_info_local,视图,
+dw.dim_store_info_current,视图,
+dw_staging.dim_activity_area_his_v1,物理表,
+dw_staging.dim_brand_info_v1,物理表,
+dw_staging.dim_category_info_v1,物理表,
+dw_staging.dim_floor_mapping_v1,物理表,
+dw_staging.dim_gate_info_v1,物理表,brand gate mapping info
+dw_staging.dim_gpid_merge_info_current_v1,物理表,
+dw_staging.dim_gpid_merge_info_his_v1,物理表,
+dw_staging.dim_mall_info_v2,物理表,
+dw_staging.dim_pid_mapping_current_v1,物理表,
+dw_staging.dim_pid_mapping_v1,物理表,"The upstream data table is ods_pid_mapping_v2, which filters out the global_pid-> local_pid mapping in globals that exceeds the threshold 10"
+dw_staging.dim_project_info_v1,物理表,
+dw_staging.dim_region_info_v1,物理表,
+dw_staging.dim_store_brand_info_v1,物理表,
+dw_staging.dim_store_info_current_v2,物理表,

@@ -1,0 +1,7 @@
+列名,字段类型,备注,描述
+old_gpid,string,,需要被修正的global pid
+new_gpid,string,,修正为新的global pid
+brand,string,,
+city,string,,
+site,string,,
+dt,string,,

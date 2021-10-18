@@ -1,0 +1,7 @@
+列名,字段类型,备注,描述
+pid_local,string,,
+pid_global,string,,
+dt,string,,
+brand,string,,
+city,string,,
+site,string,,

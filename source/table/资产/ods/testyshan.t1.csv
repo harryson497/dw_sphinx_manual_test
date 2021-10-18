@@ -1,0 +1,3 @@
+列名,字段类型,描述,是否分区列
+data,string,,
+group_id,string,,

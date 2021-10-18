@@ -1,0 +1,12 @@
+列名,字段类型,描述,是否分区列
+parking_spot_id,string,停车位ID,
+floor_id,string,楼层,
+duration_in_mins,bigint,"停车位占用时长,按照分钟算",
+parking_space_efficiency,bigint,停车事件的数目,
+parking_spot_group,string,停车位所属的车组,
+period,bigint,时间段,
+start_time,bigint,"开始时间,时间戳",
+brand,string,甲方品牌,
+city,string,甲方所在城市,
+site,string,甲方所在站点,
+dt,string,"事件日期,2021-06-22",

@@ -1,0 +1,6 @@
+列名,字段类型,备注,注释
+brand,varchar,,品牌code
+entity_id,varchar,,商场code
+sub_type,varchar,,实体类型
+sub_id,varchar,,实体id
+age,int,"0-100 为正常年龄 -1 代表未知,-2 全部",年龄

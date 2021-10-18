@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dw-manual-service
+  namespace: openfaas
+  labels:
+    app: dw-manual
+spec:
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: dw-manual
+
+

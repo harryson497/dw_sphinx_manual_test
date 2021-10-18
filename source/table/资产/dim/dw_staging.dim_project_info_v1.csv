@@ -1,0 +1,25 @@
+列名,字段类型,备注,描述
+brand,string,,商场品牌
+city,string,,商场城市
+site,string,,商场site
+mall_name,string,,商场名称
+opening_year,string,,商场开业年月
+site_area,string,,商场面积
+parking_nums,int,,商场停车位数量
+store_nums,int,,店铺数量
+floor_nums,int,,商场楼层数量
+positioning,string,,项目定位
+business_district,string,,项目所在商圈
+city_gdp,string,,"所在城市人均GDP, 万/人/年"
+purchase_power_district,string,,"周边购买力水平(项目所在行政区的人均GDP), 万/人/年"
+population_3miles,string,,"项目周边3公里内居住人数, 万人"
+mall_nums_3miles,int,,项目周边3公里购物中心数量
+res_nums_3miles,string,,项目周边3公里住宅总数
+house_price_3miles,string,,"项目周边3公里内二手房交易均价, 元/平方米"
+sub_nums_3miles,int,,项目周边3公里内地铁数量
+sub_distance,string,,"项目距最近地铁站之间的距离,如果商场本身通地铁,距离为0, km"
+parking_nums_3miles,int,,项目周边3公里内停车场数量
+brand_first_floor_rent,string,,"项目所在位置/商圈的首层平均租金, 元/月/平方米"
+city_level,string,,"城市等级,一线,新一线..."
+city_purchase_power,string,,"城市购买力水平(人均消费支出), 万元/人"
+population_city,string,,"城市常住人口, 万人"

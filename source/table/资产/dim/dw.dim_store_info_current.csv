@@ -1,0 +1,50 @@
+列名,字段类型,备注,描述
+store_id,string,,全局惟一店铺ID
+brand,string,,甲方名称
+city,string,,甲方所位于城市
+site,string,,甲方站点ID
+brand_store_id,string,,甲方对商铺的标识
+store_name,string,,商铺名称
+floor_id,string,,"楼层号码 (1F, 2F)"
+berth_number,string,,铺位号
+type_by_brand,string,,甲方业态一级分类
+subtype_by_brand,string,,甲方业态二级分类
+thirdtype_by_brand,string,,甲方业态三级分类
+life_start_date,string,,记录生命周期开始日期
+life_end_date,string,,记录生命周期结束日期
+engineering_store_id,string,,工程方对店铺唯一标识
+k11_traffic_store_id,string,,k11 在 store_traffic 表中采用的 store_id，待废弃
+remark,string,,点评分数来自哪个分店
+comment_number,string,,点评数
+average_cost,string,,人均消费
+product_score,string,,产品评分
+environment_score,string,,环境评分
+service_score,string,,服务评分
+store_description,string,,商家简介
+style_by_brand,string,,甲方定义的风格
+consumption_grade_by_brand,string,,甲方定义的商家档次
+area_id,string,,site区域ID
+area,string,,租户店铺面积
+store_brand_preference,string,,商家品牌偏好
+repast_preference,string,,饮食偏好
+store_raw_name,string,,店铺原名称
+brand_store_type,string,,租户店铺类型
+type_raw_operation,string,,旧业态
+is_bag_detect,string,,"0代表不可以提袋预测是否消费，1代表可以提袋预测是否消费,2代表提袋预测是否消费较困难"
+status,string,,店铺状态
+update_dt,string,,本条目数据最后更新时间
+aibee_store_id,string,,aibee内部店铺id
+aibee_store_name,string,,aibee内部店铺名称
+mall_name,string,,mall名称
+aibee_first_format_id,string,,aibee一级业态id
+aibee_second_format_id,string,,aibee二级业态id
+aibee_third_format_id,string,,aibee三级业态id
+type_operation,string,,AIbee 业态一级分类
+category,string,,AIbee 业态二级分类
+sub_category,string,,AIbee 业态三级分类
+property_fee,string,,租金/平米/天
+comment_score,string,,点评分数
+aibee_brand_name_ch,string,,aibee品牌中文名
+aibee_brand_name_en,string,,aibee品牌英文名
+brand_grade,string,,品牌档次
+brand_style,string,,品牌风格

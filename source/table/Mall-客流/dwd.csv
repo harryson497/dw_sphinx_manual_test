@@ -1,0 +1,4 @@
+表名,表类型,用途描述
+dw_staging.dwd_person_event_detail_rawlog_v1,物理表,
+dw_staging.dwd_person_event_v1,物理表,
+dw_staging.dwd_trajectory_v1,物理表,

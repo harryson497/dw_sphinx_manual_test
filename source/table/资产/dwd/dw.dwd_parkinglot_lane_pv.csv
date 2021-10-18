@@ -1,0 +1,10 @@
+列名,字段类型,备注,描述
+floor_id,string,,停车场所在楼层
+lane_id,string,,车道号
+period,bigint,,时间段
+pv,bigint,,车道通过的车辆数
+brand,string,,甲方品牌
+city,string,,甲方所在城市
+site,string,,甲方所在站点
+dt,string,,"事件日期,2021-06-22"
+
